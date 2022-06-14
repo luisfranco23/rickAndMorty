@@ -97,6 +97,12 @@ input::placeholder{
   box-shadow: 0 0 0 0 #000a;
   transition: box-shadow 200ms ease;
 }
+.loading{
+  text-align: center;
+  padding-top: 50vh;
+  font-size: 30px;
+
+}
 .info{
   display: flex;
   justify-content: center;
