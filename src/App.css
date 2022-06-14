@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+}
+body{
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+.location{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.head{
+  background-color: rgb(88, 86, 86);
+  text-align: center;
+  border-radius: 10px;
+  padding:10px 0;
+  width: 80%;
+}
+.list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.App__targets{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+
+}
+.App__Info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section__Target{
+  display: flex;
+  width: 400px;
+  background-color: rgb(88, 86, 86);
+  border-radius: 10px;
+  padding: 5px;
+  gap: 10px;
+}
+img {
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px 0 black;
+}
+p>span {
+  color: rgb(165, 163, 163);
+}
+
+.status__Alive{
+  color: green;
+}
+.status__Dead{
+  color: red;
+}
+.status__unknown{
+  color: gray;
+}
+.inputSearch{
+  display: flex;
+  padding: 5px;
+  gap: 2px;
+}
+input {
+  background-color: rgb(75, 75, 75);
+  width: 300px;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+input::placeholder{
+  font-size: 20px;
+  text-align: center;
+}
+.btn{
+  padding: 10px 0;
+  background-color: rgb(75, 75, 75);
+  color: white;
+  border: none;
+  padding: 3px;
+  box-shadow: 1px 1px 8px 0 black;
+}
+.btn:active{
+  box-shadow: 0 0 0 0 #000a;
+  transition: box-shadow 200ms ease;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 1000px;
+}
+
