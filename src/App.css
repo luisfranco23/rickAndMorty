@@ -60,14 +60,14 @@ p>span {
   color: rgb(165, 163, 163);
 }
 
-.status__Alive{
-  color: green;
+.Alive{
+  color:greenyellow;
 }
-.status__Dead{
-  color: red;
+.Dead{
+  color:tomato ;
 }
-.status__unknown{
-  color: gray;
+.unknown{
+  color: lightgray;
 }
 .inputSearch{
   display: flex;

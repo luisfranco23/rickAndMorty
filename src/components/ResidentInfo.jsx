@@ -13,6 +13,18 @@ const ResidentInfo = ({resident}) => {
       
     }, [])
 
+    // otra opcion de hacer el status
+    // let color = {
+    //     color: 'gray'
+    // }
+    // if(character) {
+    //     if(character.status === 'Alive') {
+    //         color.color = 'green'
+    //     } else if(character.status === 'Dead') {
+    //         color.color = 'red'
+    //     }
+    // }
+
   return (
     <section className='section__Target'>
         <div>
@@ -20,7 +32,7 @@ const ResidentInfo = ({resident}) => {
         </div>
         <div>
             <h2>{character?.name}</h2>
-            <p><i className='bx bxs-circle'></i> {character?.status}</p>
+            <p><i className={`bx bxs-circle ${character?.status}`}></i> {character?.status}</p>
             <p><span>Origin: </span>{character?.origin.name} </p>
             <p><span>Episodes where appear: </span>{character?.episode.length} </p>
         </div>

@@ -12,7 +12,6 @@ function App() {
   
   const {locations, isLoading} = useQuery(searchLocation)
 
-
   console.log(searchLocation)
 
   return (
